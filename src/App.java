@@ -19,6 +19,17 @@ public class App {
         String texto = "COMPUTACION";
         System.out.println("Texto sin cambiar: "+ texto);
         System.out.println("Texto invertido :" + cEjercicio.invertString(texto));
+
+
+         Ejercicio2 cEjercicio2 = new Ejercicio2();
+
+
+        System.out.println( "\n Ejercicio Palindromo : ");
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+       System.out.println("La palabra "+palabra1+" es palindromica; "+(cEjercicio2.esPalindromo(palabra1)?"Si":"No"));
+       System.out.println("La palabra "+palabra2+" es palindromica; "+(cEjercicio2.esPalindromo(palabra2)?"Si":"No"));
+
     }
 
     private static void runStack() {

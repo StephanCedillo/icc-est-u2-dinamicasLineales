@@ -34,12 +34,28 @@ En esta práctica utilizamos una Stack para almacenar los elementos "A", "B" y "
 
 **Fecha:** 08/06/2024
 **Descripción:**
-En este ejercicio usamos una pila para invertir una cadena de texto. Primero se almacenó cada letra en la pila con push(). Después se fueron sacando una por una con pop(), obteniendo la palabra al revés. De esta manera pudimos aplicar el funcionamiento LIFO de las pilas en un caso práctico.
+En este ejercicio use una pila para invertir una cadena de texto. Primero se almacenó cada letra en la pila con push(). Después se fueron sacando una por una con pop(), obteniendo la palabra al revés. De esta manera pudimos aplicar el funcionamiento LIFO de las pilas en un caso práctico.
 
 
-## 1. Captura de Salida en Consola
+### 4.1. Captura de Salida en Consola
 ![Captura de salida en consola](assets/01-captura-salida-consola.png)
 
-## 2. Captura de Implementación de Código
+### 4.2. Captura de Implementación de Código
 
 ![Captura de salida en consola](assets/02-app-implementacion-code.png)
+
+
+## 5. Ejercicio: Verificar si es Palindromo
+
+**Fecha:** 08/06/2024
+**Descripción:**
+En este ejercicio use una pila para invertir una cadena de texto. Primero se almacenó cada letra en la pila con push(). También se almacenó la cadena original en otra variable de char.
+Después se fueron sacando una por una con pop(), comparando con la cadena original recorriendo un puesto a la vez. De esta manera pudimos verificar si la palabra es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
+
+
+### 5.1. Captura de Salida en Consola
+![Captura de salida en consola](assets/03-captura-salida-consola.png)
+
+### 5.2. Captura de Implementación de Código
+
+![Captura de salida en consola](assets/04-app-implementacion-code.png)
