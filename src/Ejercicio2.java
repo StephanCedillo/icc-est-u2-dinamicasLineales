@@ -4,6 +4,7 @@ public class Ejercicio2 {
 
 
      public Boolean esPalindromo(String texto){
+        texto = texto.toLowerCase();
         Stack<Character> pila = new Stack<>();
         char[] textoArray = texto.toCharArray();
         for (char letra : texto.toCharArray()) {
